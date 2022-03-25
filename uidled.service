@@ -1,0 +1,9 @@
+[Unit]
+Description=Set UID led 
+
+[Service]
+ExecStart=/usr/bin/testled
+Type=simple
+
+[Install]
+WantedBy=multi-user.target

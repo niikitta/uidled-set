@@ -2,7 +2,7 @@
 Description=Set UID led 
 
 [Service]
-ExecStart=/usr/bin/testled
+ExecStart=/usr/bin/uidled
 Type=simple
 
 [Install]
